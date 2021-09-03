@@ -14,12 +14,12 @@ public abstract class AbstractVideoCaptureController {
     protected VideoCapturer videoCapturer;
 
     public AbstractVideoCaptureController(int width, int height, int fps) {
-//         this.width = width;
-//         this.height = height;
-//         this.fps = fps;
-        this.width = 1920;
-        this.height = 1080;
-        this.fps = 30;
+        this.width = width;
+        this.height = height;
+        this.fps = fps;
+//         this.width = 1920;
+//         this.height = 1080;
+//         this.fps = 30;
     }
 
     public void initializeVideoCapturer() {
