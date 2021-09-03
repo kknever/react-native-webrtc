@@ -5,8 +5,8 @@ const DEFAULT_AUDIO_CONSTRAINTS = {};
 const DEFAULT_VIDEO_CONSTRAINTS = {
     facingMode: 'user',
     frameRate: 30,
-    height: 720,
-    width: 1280
+    height: 1080,
+    width: 1920
 };
 
 const ASPECT_RATIO = 16 / 9;
